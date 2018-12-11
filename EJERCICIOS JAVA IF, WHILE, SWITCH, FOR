@@ -1,0 +1,76 @@
+//-------------------EJERCICIO JAVA CICLO WHILE------------
+public class MuestraNumWhileApp {
+ 
+    public static void main(String[] args) {
+ 
+        int num=1;
+ 
+        //Definimos el bucle, incluye el 100
+        while (num<=100){
+            System.out.println(num);
+            //Incrementamos num
+            num++;
+        }
+    }
+}
+//-----------------------EJERCICIO JAVA CON CICLO FOR--------------------
+public class MuestraNumForApp {
+ 
+    public static void main(String[] args) {
+ 
+        //Definimos el bucle, incluye el 100
+        for (int num=1;num<=100;num++){
+            System.out.println(num);
+        }
+    }
+}
+
+//--------------------------- EJERCICIO JAVA switch -----------------------------
+   public static void main(String[] args)
+    {
+        int day = 5;
+        String dayString;
+         
+        // instrucción switch con tipo de datos int
+        switch (day) 
+        {
+            case 1:  dayString = "Lunes";
+                     break;
+            case 2:  dayString = "Martes";
+                     break;
+            case 3:  dayString = "Miercoles";
+                     break;
+            case 4:  dayString = "Jueves";
+                     break;
+            case 5:  dayString = "Viernes";
+                     break;
+            case 6:  dayString = "Sabado";
+                     break;
+            case 7:  dayString = "Domingo";
+                     break;
+            default: dayString = "Dia inválido";
+                     break;
+        }
+        System.out.println(dayString);
+    }
+}
+
+//----------------------EJERCICIO JAVA CONDICIONALES------------
+public class condicional {
+ 
+	public static void main(String[] args) {
+ 
+		Scanner m = new Scanner(System.in);
+		int montoFinal;
+		System.out.print("Monto final: ");
+		montoFinal = m.nextInt();
+		int descuento = montoFinal*5/100;
+		if (montoFinal>500){
+		System.out.print("Se aplica un descuento del 5%: ");
+		System.out.println(montoFinal-descuento);
+		}
+	}
+}
+
+
+
